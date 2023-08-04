@@ -1,0 +1,15 @@
+{
+    "actionOnStepFail": null, 
+    "blueprintName": "", 
+    "blueprintUuid": "7141bb39-2277-4d5d-9f43-00d705cc094b", 
+    "cloneUrl": "", 
+    "enabled": true, 
+    "externalUuid4": "746447c6-97ae-4d57-a8bb-71b9c90ac8d2", 
+    "key": "createbootableuefiwinpeisowithnukdrivers", 
+    "name": "Create Bootable UEFI WinPE ISO with Nuk Drivers", 
+    "parameterMap": [], 
+    "projectName": "", 
+    "projectUuid": "24a458c3-5025-400b-bb49-4eae2055a149", 
+    "projectVersion": "", 
+    "type": "com.servertribe.attune.tuples.StepProjectLinkTuple"
+}

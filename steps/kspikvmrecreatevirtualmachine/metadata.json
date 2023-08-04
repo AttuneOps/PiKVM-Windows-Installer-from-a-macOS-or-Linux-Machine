@@ -1,0 +1,15 @@
+{
+    "actionOnStepFail": null, 
+    "blueprintName": "", 
+    "blueprintUuid": "67ed586d-9391-4574-9724-00caaefe8d27", 
+    "cloneUrl": "", 
+    "enabled": true, 
+    "externalUuid4": "04d06175-76a9-4e28-9de4-f54ac6d3f952", 
+    "key": "kspikvmrecreatevirtualmachine", 
+    "name": "KS PiKVM Recreate Virtual Machine", 
+    "parameterMap": [], 
+    "projectName": "", 
+    "projectUuid": "72cd40ea-d0ee-4b40-a6a8-0458c5255088", 
+    "projectVersion": "", 
+    "type": "com.servertribe.attune.tuples.StepProjectLinkTuple"
+}
