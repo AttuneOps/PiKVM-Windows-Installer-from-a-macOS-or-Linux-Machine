@@ -54,7 +54,7 @@ This Project contains the following Blueprints.
 
 
 
-### Kickstart Windows Server 2019 on PiKVM with WinPE UEFI
+### Autounattend Windows Server 2022 (Win2022) UEFI WinPE ISO on macOS or Linux Worker for PiKVM
 
 
 
@@ -65,6 +65,14 @@ This Project contains the following Blueprints.
 
 | Name | Type | Script Reference | Comment |
 | ---- | ---- | ---------------- | ------- |
+| Automation Worker Base Directory | Text | `automationworkerbasedirectory` |  |
+| Automation Worker Linux Node | Linux/Unix Node | `automationworkerlinuxnode` |  |
+| Automation Worker Linux User | Linux/Unix Credential | `automationworkerlinuxuser` |  |
+| Automation Worker Linux User: root | Linux/Unix Credential | `automationworkerlinuxuserroot` |  |
+| New OS Node | Basic Node | `newosnode` |  |
+| New OS User | Basic Credential | `newosuser` |  |
+| New OS Windows Node | Windows Node | `newoswindowsnode` |  |
+| New OS Windows User: administrator | Windows Credential | `newoswindowsuseradministrator` |  |
 
 
 

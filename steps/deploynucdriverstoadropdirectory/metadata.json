@@ -1,0 +1,52 @@
+{
+    "actionOnStepFail": null, 
+    "blueprintName": "", 
+    "blueprintUuid": "0a7f0bef-ca88-4e0d-a5c6-5674e77a5bdc", 
+    "cloneUrl": "https://github.com/Attune-Automation/PiKVM-APIs.git", 
+    "enabled": true, 
+    "externalUuid4": "2ba5d8fe-67b7-4635-b343-89fd0679a15c", 
+    "key": "deploynucdriverstoadropdirectory", 
+    "name": "Deploy nuc Drivers to a Drop Directory", 
+    "parameterMap": [
+        {
+            "childParameterName": null, 
+            "childParameterType": "c.s.s.b.phv.Text", 
+            "childParameterUuid": "e684cdc7-7db2-4743-b089-4e9f83578ab9", 
+            "childProjectName": null, 
+            "childProjectUuid": "72cd40ea-d0ee-4b40-a6a8-0458c5255088", 
+            "parentParameterKey": "automationworkerbasedirectory", 
+            "parentStaticTextValue": null
+        }, 
+        {
+            "childParameterName": null, 
+            "childParameterType": "c.s.s.b.phv.Server", 
+            "childParameterUuid": "f6080084-6b30-4af6-bf17-4a8621b5a390", 
+            "childProjectName": null, 
+            "childProjectUuid": "72cd40ea-d0ee-4b40-a6a8-0458c5255088", 
+            "parentParameterKey": "newoswindowsnode", 
+            "parentStaticTextValue": null
+        }, 
+        {
+            "childParameterName": null, 
+            "childParameterType": "c.s.s.b.phv.LinuxServer", 
+            "childParameterUuid": "84877738-ee10-4dc0-b43f-be503dfcf787", 
+            "childProjectName": null, 
+            "childProjectUuid": "72cd40ea-d0ee-4b40-a6a8-0458c5255088", 
+            "parentParameterKey": "automationworkerlinuxnode", 
+            "parentStaticTextValue": null
+        }, 
+        {
+            "childParameterName": null, 
+            "childParameterType": "c.s.s.b.phv.LinOsCred", 
+            "childParameterUuid": "a37cfc74-69e0-4817-a831-858c351d159f", 
+            "childProjectName": null, 
+            "childProjectUuid": "72cd40ea-d0ee-4b40-a6a8-0458c5255088", 
+            "parentParameterKey": "automationworkerlinuxuser", 
+            "parentStaticTextValue": null
+        }
+    ], 
+    "projectName": "", 
+    "projectUuid": "72cd40ea-d0ee-4b40-a6a8-0458c5255088", 
+    "projectVersion": "", 
+    "type": "com.servertribe.attune.tuples.StepProjectLinkTuple"
+}

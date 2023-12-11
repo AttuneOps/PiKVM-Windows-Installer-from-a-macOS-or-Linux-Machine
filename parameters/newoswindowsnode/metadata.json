@@ -1,0 +1,7 @@
+{
+    "externalUuid4": "80ffe8a0-c6a8-4d07-9c05-1a7ae50e5481", 
+    "key": "newoswindowsnode", 
+    "name": "New OS Windows Node", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.WindowsServer"
+}

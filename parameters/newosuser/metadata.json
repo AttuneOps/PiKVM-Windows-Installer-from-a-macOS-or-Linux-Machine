@@ -1,0 +1,7 @@
+{
+    "externalUuid4": "448f630b-a93f-4924-9c1d-3600af5d4a61", 
+    "key": "newosuser", 
+    "name": "New OS User", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.OsCred"
+}

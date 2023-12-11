@@ -1,0 +1,142 @@
+{
+    "actionOnStepFail": null, 
+    "blueprintName": "", 
+    "blueprintUuid": "3a80fae8-d64d-4471-a573-eb64cde2f5f7", 
+    "cloneUrl": "https://github.com/Attune-Automation/Automate-Windows-Installation-with-autounattend.git", 
+    "enabled": true, 
+    "externalUuid4": "1403f502-1057-4027-b991-0c628558b06b", 
+    "key": "createwin2022uefiautounattendwinpeisoonmacosorlinuxworker", 
+    "name": "Create Win2022 UEFI autounattend WinPE ISO on macOS or Linux Worker", 
+    "parameterMap": [
+        {
+            "childParameterName": null, 
+            "childParameterType": "c.s.s.b.phv.Text", 
+            "childParameterUuid": "07fd9853-d326-49cd-9946-fb0cb8695949", 
+            "childProjectName": null, 
+            "childProjectUuid": "05c41adc-9b4e-49f9-b72c-aa4ee4a0cf27", 
+            "parentParameterKey": null, 
+            "parentStaticTextValue": "false"
+        }, 
+        {
+            "childParameterName": null, 
+            "childParameterType": "c.s.s.b.phv.Text", 
+            "childParameterUuid": "7ac710f8-3bc8-4555-9e28-c9ccb2763ec4", 
+            "childProjectName": null, 
+            "childProjectUuid": "05c41adc-9b4e-49f9-b72c-aa4ee4a0cf27", 
+            "parentParameterKey": null, 
+            "parentStaticTextValue": "false"
+        }, 
+        {
+            "childParameterName": null, 
+            "childParameterType": "c.s.s.b.phv.Text", 
+            "childParameterUuid": "e3438956-892f-47ce-ad31-fd07ecd410d6", 
+            "childProjectName": null, 
+            "childProjectUuid": "05c41adc-9b4e-49f9-b72c-aa4ee4a0cf27", 
+            "parentParameterKey": null, 
+            "parentStaticTextValue": "false"
+        }, 
+        {
+            "childParameterName": null, 
+            "childParameterType": "c.s.s.b.phv.Text", 
+            "childParameterUuid": "63988114-dfae-41ee-afc3-1f329fc54f31", 
+            "childProjectName": null, 
+            "childProjectUuid": "05c41adc-9b4e-49f9-b72c-aa4ee4a0cf27", 
+            "parentParameterKey": null, 
+            "parentStaticTextValue": "true"
+        }, 
+        {
+            "childParameterName": null, 
+            "childParameterType": "c.s.s.b.phv.Text", 
+            "childParameterUuid": "0a83dada-be7d-475a-aaac-1a56a37090ff", 
+            "childProjectName": null, 
+            "childProjectUuid": "05c41adc-9b4e-49f9-b72c-aa4ee4a0cf27", 
+            "parentParameterKey": null, 
+            "parentStaticTextValue": "true"
+        }, 
+        {
+            "childParameterName": null, 
+            "childParameterType": "c.s.s.b.phv.Text", 
+            "childParameterUuid": "a994e07d-2388-4391-a3f8-4911de92c519", 
+            "childProjectName": null, 
+            "childProjectUuid": "05c41adc-9b4e-49f9-b72c-aa4ee4a0cf27", 
+            "parentParameterKey": null, 
+            "parentStaticTextValue": "X"
+        }, 
+        {
+            "childParameterName": null, 
+            "childParameterType": "c.s.s.b.phv.Text", 
+            "childParameterUuid": "5bb97c7d-b369-4feb-bc00-bc898a011ff3", 
+            "childProjectName": null, 
+            "childProjectUuid": "05c41adc-9b4e-49f9-b72c-aa4ee4a0cf27", 
+            "parentParameterKey": null, 
+            "parentStaticTextValue": "C"
+        }, 
+        {
+            "childParameterName": null, 
+            "childParameterType": "c.s.s.b.phv.LinuxServer", 
+            "childParameterUuid": "6adef4f6-9180-4ab1-95e7-486de103f1fd", 
+            "childProjectName": null, 
+            "childProjectUuid": "05c41adc-9b4e-49f9-b72c-aa4ee4a0cf27", 
+            "parentParameterKey": "automationworkerlinuxnode", 
+            "parentStaticTextValue": null
+        }, 
+        {
+            "childParameterName": null, 
+            "childParameterType": "c.s.s.b.phv.LinOsCred", 
+            "childParameterUuid": "7a64ee22-768c-411b-8aee-fb482908f6fb", 
+            "childProjectName": null, 
+            "childProjectUuid": "05c41adc-9b4e-49f9-b72c-aa4ee4a0cf27", 
+            "parentParameterKey": "automationworkerlinuxuser", 
+            "parentStaticTextValue": null
+        }, 
+        {
+            "childParameterName": null, 
+            "childParameterType": "c.s.s.b.phv.WinOsCred", 
+            "childParameterUuid": "7eb32af4-eca4-473e-bc40-aceffabfaad3", 
+            "childProjectName": null, 
+            "childProjectUuid": "05c41adc-9b4e-49f9-b72c-aa4ee4a0cf27", 
+            "parentParameterKey": "newoswindowsuseradministrator", 
+            "parentStaticTextValue": null
+        }, 
+        {
+            "childParameterName": null, 
+            "childParameterType": "c.s.s.b.phv.Text", 
+            "childParameterUuid": "27cbd06c-9a60-48ed-b8d0-bd0d34dbe544", 
+            "childProjectName": null, 
+            "childProjectUuid": "05c41adc-9b4e-49f9-b72c-aa4ee4a0cf27", 
+            "parentParameterKey": "automationworkerbasedirectory", 
+            "parentStaticTextValue": null
+        }, 
+        {
+            "childParameterName": null, 
+            "childParameterType": "c.s.s.b.phv.Server", 
+            "childParameterUuid": "7116171b-6cab-412b-b2c3-cdbf063a7ace", 
+            "childProjectName": null, 
+            "childProjectUuid": "05c41adc-9b4e-49f9-b72c-aa4ee4a0cf27", 
+            "parentParameterKey": "newoswindowsnode", 
+            "parentStaticTextValue": null
+        }, 
+        {
+            "childParameterName": null, 
+            "childParameterType": "c.s.s.b.phv.Text", 
+            "childParameterUuid": "021b440d-1646-40df-9c3b-5129dbaf07e8", 
+            "childProjectName": null, 
+            "childProjectUuid": "05c41adc-9b4e-49f9-b72c-aa4ee4a0cf27", 
+            "parentParameterKey": null, 
+            "parentStaticTextValue": "true"
+        }, 
+        {
+            "childParameterName": null, 
+            "childParameterType": "c.s.s.b.phv.Text", 
+            "childParameterUuid": "520c8b94-c5ed-4652-81be-a0fbba474226", 
+            "childProjectName": null, 
+            "childProjectUuid": "05c41adc-9b4e-49f9-b72c-aa4ee4a0cf27", 
+            "parentParameterKey": null, 
+            "parentStaticTextValue": "windows2022"
+        }
+    ], 
+    "projectName": "", 
+    "projectUuid": "05c41adc-9b4e-49f9-b72c-aa4ee4a0cf27", 
+    "projectVersion": "", 
+    "type": "com.servertribe.attune.tuples.StepProjectLinkTuple"
+}
