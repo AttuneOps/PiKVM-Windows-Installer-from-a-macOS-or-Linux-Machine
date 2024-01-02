@@ -4,9 +4,9 @@
     "blueprintUuid": "3a80fae8-d64d-4471-a573-eb64cde2f5f7", 
     "cloneUrl": "https://github.com/Attune-Automation/Automate-Windows-Installation-with-autounattend.git", 
     "enabled": true, 
-    "externalUuid4": "bb39e2a8-b766-465a-a46c-049a92e250e6", 
-    "key": "createwin2022biosautounattendwinpeisoonmacosorlinuxworker", 
-    "name": "Create Win2022 BIOS autounattend WinPE ISO on macOS or Linux Worker", 
+    "externalUuid4": "f1ad1335-5ee2-4103-9dcd-44dce2e674cd", 
+    "key": "createwin10uefiautounattendwinpeisoonmacosorlinuxworker", 
+    "name": "Create Win10 UEFI autounattend WinPE ISO on macOS or Linux Worker", 
     "parameterMap": [
         {
             "childParameterName": null, 
@@ -24,7 +24,7 @@
             "childProjectName": null, 
             "childProjectUuid": "05c41adc-9b4e-49f9-b72c-aa4ee4a0cf27", 
             "parentParameterKey": null, 
-            "parentStaticTextValue": "false"
+            "parentStaticTextValue": "true"
         }, 
         {
             "childParameterName": null, 
@@ -33,7 +33,7 @@
             "childProjectName": null, 
             "childProjectUuid": "05c41adc-9b4e-49f9-b72c-aa4ee4a0cf27", 
             "parentParameterKey": null, 
-            "parentStaticTextValue": "true"
+            "parentStaticTextValue": "false"
         }, 
         {
             "childParameterName": null, 
@@ -123,7 +123,7 @@
             "childProjectName": null, 
             "childProjectUuid": "05c41adc-9b4e-49f9-b72c-aa4ee4a0cf27", 
             "parentParameterKey": null, 
-            "parentStaticTextValue": "false"
+            "parentStaticTextValue": "true"
         }, 
         {
             "childParameterName": null, 
@@ -132,7 +132,7 @@
             "childProjectName": null, 
             "childProjectUuid": "05c41adc-9b4e-49f9-b72c-aa4ee4a0cf27", 
             "parentParameterKey": null, 
-            "parentStaticTextValue": "windows2022"
+            "parentStaticTextValue": "windows10"
         }
     ], 
     "projectName": "", 

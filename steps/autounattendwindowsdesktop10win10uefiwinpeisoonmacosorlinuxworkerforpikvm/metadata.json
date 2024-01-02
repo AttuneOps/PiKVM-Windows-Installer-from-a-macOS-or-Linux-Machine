@@ -2,9 +2,9 @@
     "actionOnStepFail": "stop", 
     "concurrency": 1, 
     "enabled": true, 
-    "externalUuid4": "19a6a265-1418-4edf-9e11-369709e357fe", 
+    "externalUuid4": "a709047d-882b-433e-b5b7-85c346dc8f6d", 
     "isBlueprint": true, 
-    "key": "autounattendwindowsserver2022win2022bioswinpeisoonmacosorlinuxworkerforpikvm", 
+    "key": "autounattendwindowsdesktop10win10uefiwinpeisoonmacosorlinuxworkerforpikvm", 
     "links": [
         {
             "order": 0, 
@@ -16,7 +16,7 @@
         }, 
         {
             "order": 250, 
-            "stepKey": "createwin2022biosautounattendwinpeisoonmacosorlinuxworker"
+            "stepKey": "createwin10uefiautounattendwinpeisoonmacosorlinuxworker"
         }, 
         {
             "order": 300, 
@@ -27,6 +27,6 @@
             "stepKey": "performcleanuponmacosorlinuxworker"
         }
     ], 
-    "name": "Autounattend Windows Server 2022 (Win2022) BIOS WinPE ISO on macOS or Linux Worker for PiKVM", 
+    "name": "Autounattend Windows Desktop 10 (Win10) UEFI WinPE ISO on macOS or Linux Worker for PiKVM", 
     "type": "com.servertribe.attune.tuples.StepGroupTuple"
 }

@@ -54,7 +54,7 @@ This Project contains the following Blueprints.
 
 
 
-### Autounattend Windows Server 2022 (Win2022) BIOS WinPE ISO on macOS or Linux Worker for PiKVM
+### Autounattend Windows Desktop 10 (Win10) UEFI WinPE ISO on macOS or Linux Worker for PiKVM
 
 
 ### Autounattend Windows Server 2022 (Win2022) UEFI WinPE ISO on macOS or Linux Worker for PiKVM
