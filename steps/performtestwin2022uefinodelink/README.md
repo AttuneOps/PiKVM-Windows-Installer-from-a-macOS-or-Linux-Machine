@@ -1,0 +1,1 @@
+Perform basic tests for Windows Server 2022 UEFI.

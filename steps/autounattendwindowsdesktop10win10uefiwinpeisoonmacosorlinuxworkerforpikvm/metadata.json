@@ -25,6 +25,10 @@
         {
             "order": 400, 
             "stepKey": "performcleanuponmacosorlinuxworker"
+        }, 
+        {
+            "order": 500, 
+            "stepKey": "performtestwin10uefinodelink"
         }
     ], 
     "name": "Autounattend Windows Desktop 10 (Win10) UEFI WinPE ISO on macOS or Linux Worker for PiKVM", 
