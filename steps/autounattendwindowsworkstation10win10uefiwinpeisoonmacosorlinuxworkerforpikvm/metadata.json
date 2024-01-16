@@ -4,7 +4,7 @@
     "enabled": true, 
     "externalUuid4": "a709047d-882b-433e-b5b7-85c346dc8f6d", 
     "isBlueprint": true, 
-    "key": "autounattendwindowsdesktop10win10uefiwinpeisoonmacosorlinuxworkerforpikvm", 
+    "key": "autounattendwindowsworkstation10win10uefiwinpeisoonmacosorlinuxworkerforpikvm", 
     "links": [
         {
             "order": 0, 
@@ -27,6 +27,6 @@
             "stepKey": "performcleanuponmacosorlinuxworker"
         }
     ], 
-    "name": "Autounattend Windows Desktop 10 (Win10) UEFI WinPE ISO on macOS or Linux Worker for PiKVM", 
+    "name": "Autounattend Windows Workstation 10 (Win10) UEFI WinPE ISO on macOS or Linux Worker for PiKVM", 
     "type": "com.servertribe.attune.tuples.StepGroupTuple"
 }

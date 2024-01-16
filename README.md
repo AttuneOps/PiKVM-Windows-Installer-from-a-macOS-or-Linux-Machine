@@ -54,13 +54,10 @@ This Project contains the following Blueprints.
 
 
 
-### Autounattend Windows Desktop 10 (Win10) UEFI WinPE ISO on macOS or Linux Worker for PiKVM
-
-
 ### Autounattend Windows Server 2022 (Win2022) UEFI WinPE ISO on macOS or Linux Worker for PiKVM
 
 
-### Autounattend Windows Server 2022 (Win2022) UEFI WinPE ISO on Windows Worker for PiKVM
+### Autounattend Windows Workstation 10 (Win10) UEFI WinPE ISO on macOS or Linux Worker for PiKVM
 
 
 
@@ -71,13 +68,10 @@ This Project contains the following Blueprints.
 
 | Name | Type | Script Reference | Comment |
 | ---- | ---- | ---------------- | ------- |
-| Automation Windows Worker Base Share Directory | Text | `automationwindowsworkerbasesharedirectory` |  |
 | Automation Worker Base Directory | Text | `automationworkerbasedirectory` |  |
 | Automation Worker Linux Node | Linux/Unix Node | `automationworkerlinuxnode` |  |
 | Automation Worker Linux User | Linux/Unix Credential | `automationworkerlinuxuser` |  |
 | Automation Worker Linux User: root | Linux/Unix Credential | `automationworkerlinuxuserroot` |  |
-| Automation Worker Windows Node | Windows Node | `automationworkerwindowsnode` |  |
-| Automation Worker Windows User: Administrator | Windows Credential | `automationworkerwindowsuseradministrator` |  |
 | New OS Node | Basic Node | `newosnode` |  |
 | New OS User | Basic Credential | `newosuser` |  |
 | New OS Windows Node | Windows Node | `newoswindowsnode` |  |
