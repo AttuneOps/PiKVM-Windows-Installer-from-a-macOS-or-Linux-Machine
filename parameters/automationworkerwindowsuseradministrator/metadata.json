@@ -1,0 +1,7 @@
+{
+    "externalUuid4": "b3abdbaa-4e3a-4184-9bc4-597beda6a5a3", 
+    "key": "automationworkerwindowsuseradministrator", 
+    "name": "Automation Worker Windows User: Administrator", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.WinOsCred"
+}

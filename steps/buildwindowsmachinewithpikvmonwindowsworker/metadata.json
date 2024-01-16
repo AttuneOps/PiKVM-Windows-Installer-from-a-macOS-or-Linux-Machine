@@ -1,0 +1,70 @@
+{
+    "actionOnStepFail": null, 
+    "blueprintName": "", 
+    "blueprintUuid": "3b3e8745-d4db-4c54-ac88-ff9f4e9b81a4", 
+    "cloneUrl": "https://github.com/Attune-Automation/PiKVM-APIs-on-Windows.git", 
+    "enabled": true, 
+    "externalUuid4": "c0ccbd75-1f1c-45c3-9257-08fe8f5aed8c", 
+    "key": "buildwindowsmachinewithpikvmonwindowsworker", 
+    "name": "Build Windows Machine with PiKVM on Windows Worker", 
+    "parameterMap": [
+        {
+            "childParameterName": null, 
+            "childParameterType": "c.s.s.b.phv.WindowsServer", 
+            "childParameterUuid": "d8d104dd-1ac3-43ad-b519-e7a231f165a9", 
+            "childProjectName": null, 
+            "childProjectUuid": "9540b371-5cad-4e86-a379-035f252dfa32", 
+            "parentParameterKey": "automationworkerwindowsnode", 
+            "parentStaticTextValue": null
+        }, 
+        {
+            "childParameterName": null, 
+            "childParameterType": "c.s.s.b.phv.WinOsCred", 
+            "childParameterUuid": "44f9ea55-9964-4d99-b9f8-1488831307b7", 
+            "childProjectName": null, 
+            "childProjectUuid": "9540b371-5cad-4e86-a379-035f252dfa32", 
+            "parentParameterKey": "automationworkerwindowsuseradministrator", 
+            "parentStaticTextValue": null
+        }, 
+        {
+            "childParameterName": null, 
+            "childParameterType": "c.s.s.b.phv.Server", 
+            "childParameterUuid": "701e7221-dbb6-49be-864b-3830cfa5855c", 
+            "childProjectName": null, 
+            "childProjectUuid": "9540b371-5cad-4e86-a379-035f252dfa32", 
+            "parentParameterKey": "newosnode", 
+            "parentStaticTextValue": null
+        }, 
+        {
+            "childParameterName": null, 
+            "childParameterType": "c.s.s.b.phv.Text", 
+            "childParameterUuid": "9b186457-aec2-4661-b821-ee76ed067840", 
+            "childProjectName": null, 
+            "childProjectUuid": "9540b371-5cad-4e86-a379-035f252dfa32", 
+            "parentParameterKey": "automationworkerbasedirectory", 
+            "parentStaticTextValue": null
+        }, 
+        {
+            "childParameterName": null, 
+            "childParameterType": "c.s.s.b.phv.WindowsServer", 
+            "childParameterUuid": "a0a3bc73-3b2b-4d80-b557-3367db23149b", 
+            "childProjectName": null, 
+            "childProjectUuid": "9540b371-5cad-4e86-a379-035f252dfa32", 
+            "parentParameterKey": "newoswindowsnode", 
+            "parentStaticTextValue": null
+        }, 
+        {
+            "childParameterName": null, 
+            "childParameterType": "c.s.s.b.phv.WinOsCred", 
+            "childParameterUuid": "a62243b7-32ef-4378-aed5-f5004018f62d", 
+            "childProjectName": null, 
+            "childProjectUuid": "9540b371-5cad-4e86-a379-035f252dfa32", 
+            "parentParameterKey": "newoswindowsuseradministrator", 
+            "parentStaticTextValue": null
+        }
+    ], 
+    "projectName": "", 
+    "projectUuid": "9540b371-5cad-4e86-a379-035f252dfa32", 
+    "projectVersion": "", 
+    "type": "com.servertribe.attune.tuples.StepProjectLinkTuple"
+}

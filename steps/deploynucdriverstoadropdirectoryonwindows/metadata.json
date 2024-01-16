@@ -1,12 +1,12 @@
 {
-    "actionOnStepFail": null, 
+    "actionOnStepFail": "stop", 
     "blueprintName": "", 
     "blueprintUuid": "0a7f0bef-ca88-4e0d-a5c6-5674e77a5bdc", 
     "cloneUrl": "", 
     "enabled": true, 
-    "externalUuid4": "2ba5d8fe-67b7-4635-b343-89fd0679a15c", 
-    "key": "deploynucdriverstoadropdirectory", 
-    "name": "Deploy nuc Drivers to a Drop Directory", 
+    "externalUuid4": "0bf1f8d3-68d9-4a34-85e6-c637722890e3", 
+    "key": "deploynucdriverstoadropdirectoryonwindows", 
+    "name": "Deploy nuc Drivers to a Drop Directory on Windows", 
     "parameterMap": [
         {
             "childParameterName": null, 
@@ -14,7 +14,7 @@
             "childParameterUuid": "e684cdc7-7db2-4743-b089-4e9f83578ab9", 
             "childProjectName": null, 
             "childProjectUuid": "a2dcb006-9912-44c3-8228-5aa38e8c5c6b", 
-            "parentParameterKey": "automationworkerbasedirectory", 
+            "parentParameterKey": "automationwindowsworkerbasesharedirectory", 
             "parentStaticTextValue": null
         }, 
         {
@@ -32,7 +32,7 @@
             "childParameterUuid": "e635e4e3-24ab-493e-8e15-6377e195194c", 
             "childProjectName": null, 
             "childProjectUuid": "a2dcb006-9912-44c3-8228-5aa38e8c5c6b", 
-            "parentParameterKey": "automationworkerlinuxnode", 
+            "parentParameterKey": "automationworkerwindowsnode", 
             "parentStaticTextValue": null
         }, 
         {
@@ -41,7 +41,7 @@
             "childParameterUuid": "dec634ab-64c1-44ea-b76c-8a9f4b086405", 
             "childProjectName": null, 
             "childProjectUuid": "a2dcb006-9912-44c3-8228-5aa38e8c5c6b", 
-            "parentParameterKey": "automationworkerlinuxuserroot", 
+            "parentParameterKey": "automationworkerwindowsuseradministrator", 
             "parentStaticTextValue": null
         }
     ], 

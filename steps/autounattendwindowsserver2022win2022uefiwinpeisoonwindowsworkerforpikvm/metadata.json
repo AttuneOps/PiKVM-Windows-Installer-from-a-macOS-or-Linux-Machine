@@ -1,0 +1,28 @@
+{
+    "actionOnStepFail": "stop", 
+    "concurrency": 1, 
+    "enabled": true, 
+    "externalUuid4": "8ecae260-5492-41f5-9d17-784791a0a1fa", 
+    "isBlueprint": true, 
+    "key": "autounattendwindowsserver2022win2022uefiwinpeisoonwindowsworkerforpikvm", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "performcleanuponwindowsworker"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "deploynucdriverstoadropdirectoryonwindows"
+        }, 
+        {
+            "order": 150, 
+            "stepKey": "createwin2022uefiautounattendwinpeisoonwindowsworker"
+        }, 
+        {
+            "order": 200, 
+            "stepKey": "buildwindowsmachinewithpikvmonwindowsworker"
+        }
+    ], 
+    "name": "Autounattend Windows Server 2022 (Win2022) UEFI WinPE ISO on Windows Worker for PiKVM", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}
